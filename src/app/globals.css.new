@@ -79,9 +79,3 @@ body {
 .header-gradient {
   background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
 }
-
-input,
-select,
-textarea {
-  @apply bg-white text-black border-gray-600 border rounded px-3 py-2;
-}
