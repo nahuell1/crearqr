@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { GeistSans } from 'geist/font/sans';
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function RootLayout({
         className={`${GeistSans.className} antialiased bg-gray-50 dark:bg-gray-900 min-h-screen`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
