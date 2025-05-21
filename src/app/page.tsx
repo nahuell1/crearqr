@@ -1,5 +1,5 @@
 import QRGeneratorContainer from "@/components/QRGeneratorContainer";
-import { FaGithub, FaQrcode, FaMobileAlt, FaRegLightbulb } from "react-icons/fa";
+import { FaQrcode } from "react-icons/fa";
 
 export default function Home() {
   return (
